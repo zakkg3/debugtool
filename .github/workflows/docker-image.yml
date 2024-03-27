@@ -30,3 +30,7 @@ jobs:
         
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag zakkg3/debugtool:$(date +%s) --tag zakkg3/debugtool:latest
+
+    - name: Push
+      run: docker push zakkg3/debugtool:$(date +%s)
+      run: docker push zakkg3/debugtool:latest
