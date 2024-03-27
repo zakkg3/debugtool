@@ -8,4 +8,5 @@ RUN apt-get update && apt-get install -y \
   net-tools \
   vim \
   iputils-ping \
-  nano
+  nano \
+  htop
