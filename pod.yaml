@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: debugtool
+  namespace: default
+spec:
+  containers:
+  - name: debugtool
+    image: zakkg3/debugtool:latest
