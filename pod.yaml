@@ -7,3 +7,5 @@ spec:
   containers:
   - name: debugtool
     image: zakkg3/debugtool:latest
+    imagePullPolicy: Always
+    command: ["sleep", "infinity"]
